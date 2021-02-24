@@ -33,3 +33,18 @@ function logUpTo(n) {
     console.log(i);
   }
 }
+// Time Complexity:
+
+function logAtLeast10(n) {
+  for (let i = 1; i <= Math.max(n, 10); i++) {
+    console.log(i);
+  }
+}
+
+// Time Complexity: O(n)
+
+function logAtMost10(n) {
+  for (let i = 1; i <= Math.min(n, 10); i++) {
+    console.log(i);
+  }
+}
